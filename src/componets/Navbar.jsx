@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { IoIosSearch } from "react-icons/io";
+
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -77,19 +80,20 @@ export default function NavBar() {
             </li>
           </ul>
           <form className="d-flex form" role="search">
-            <i class="bx bx-search"></i>
+            <i className="bx bx-search"></i>
             <input
               className="form-control me-2 col-w-100"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button
+            <Link
+              to="/Login"
               className="btn btn-outline-primary mr-2 col-4"
               type="submit"
             >
               SIGN IN
-            </button>
+            </Link>
           </form>
         </div>
       </div>
