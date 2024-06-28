@@ -1,0 +1,71 @@
+
+.nav-item a:hover{
+    color: rgb(85, 58, 184) !important;
+}
+
+.nav-link .bx-code-alt {
+    font-size: 30px;
+    color: green;
+}
+
+.form i {
+    transform: translate(25px, 11px);
+    color: #fff;
+}
+
+.form input {
+    border-radius: 25px !important;
+    background-color: rgb(121, 146, 230) !important;
+    outline: 0 !important;
+    border: 0 !important;
+    padding-left: 30px !important;
+    color: #fff !important;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+figure {
+    position: relative;
+}
+
+.bx-bookmark {
+    position: absolute;
+    font-weight: 600;
+    color: #fff;
+    /* transform: translate(275px, 5px); */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.btn-n {
+    border-radius:25px !important;
+    padding: 0.5em 2.7em !important;
+}
+
+.btn-span {
+    position: absolute;
+    transform: translate(-41px, 1px);
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    /* border: 1px solid red; */
+}
+
+.bx-right-arrow-alt {
+    color: purple;
+    font-size: large;
+    transform: translateY(8px);
+}
